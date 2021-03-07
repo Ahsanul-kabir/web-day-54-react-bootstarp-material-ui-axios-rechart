@@ -12,9 +12,9 @@ const TopNews = () => {
     return (
         <div>
             <h1>Top Headline: {articles.length}</h1>
-            {
+            {/* {
                 articles.map(article=> <Bootstarp article={article}></Bootstarp>)
-            }
+            } */}
         </div>
     );
 };
