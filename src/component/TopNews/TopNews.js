@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Bootstarp from '../Bootstarp';
 
 const TopNews = () => {
     const [articles,setArticles] = useState([]);
@@ -11,6 +12,9 @@ const TopNews = () => {
     return (
         <div>
             <h1>Top Headline: {articles.length}</h1>
+            {
+                articles.map(article=> <Bootstarp article={article}></Bootstarp>)
+            }
         </div>
     );
 };
