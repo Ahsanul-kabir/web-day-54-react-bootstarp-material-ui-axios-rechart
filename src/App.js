@@ -1,5 +1,5 @@
 import './App.css';
-import News from './component/News';
+import Bootstarp from './component/Bootstarp';
 import Header from './component/Header/Header';
 import TopNews from './component/TopNews/TopNews';
 
@@ -9,7 +9,7 @@ function App() {
     <div>
       <Header></Header>
       <TopNews></TopNews>
-      <News></News>
+      <Bootstarp></Bootstarp>
     </div>
   );
 }
