@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 import News from './material-ul-component/News'
 import { useEffect, useState } from 'react';
 
-// use Recharts Library
+// use Recharts Library == eta react base chart library
 import React, { PureComponent } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
